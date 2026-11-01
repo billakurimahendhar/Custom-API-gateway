@@ -1,0 +1,17 @@
+package com.api.gatekeeper.management.dto.responsedto;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDateTime;
+
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+public class HealthResponse {
+    private String serviceStatus ;
+    private String dbStatus;
+    private LocalDateTime timestamp;
+}
