@@ -1,0 +1,12 @@
+package com.api.gatekeeper.gateway.dto.responsedto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class LoginRequest {
+
+    private String username;
+    private String password;
+}
